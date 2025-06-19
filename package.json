@@ -1,8 +1,13 @@
 {
   "scripts": {
-    "deploy": "gh-pages -d app"
+    "deploy": "gh-pages -d app",
+    "e2e-test": "npx playwright test"
   },
   "dependencies": {
     "gh-pages": "^6.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.3"
   }
 }
